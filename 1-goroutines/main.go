@@ -18,14 +18,14 @@ func main() {
 }
 
 func escrever1(texto string) {
-	for {
+	for i := 0; i < 5; i++ {
 		fmt.Println(texto)
 		time.Sleep(time.Second)
 	}
 }
 
 func escrever2(texto string) {
-	for {
+	for i := 0; i < 5; i++ {
 		fmt.Println(texto)
 		time.Sleep(time.Second)
 	}
